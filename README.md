@@ -3,7 +3,7 @@
 A small CRM for BIAI's enquiries (WhatsApp, Facebook, website, phone notes).
 AI reads a pasted message, fills in the details, and suggests a reply in the sender's language.
 
-**Live demo:** https://biai-crm-trino.streamlit.app/  |  **Video:** `<paste the Loom link>`
+**Live demo:** https://biai-crm-trino.streamlit.app/  |  **Video:** `https://www.loom.com/share/2226af2c4f1d4b58a9cb136908d7f53a?t=322`
 
 ![System design](docs/architecture.png)
 
