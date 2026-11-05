@@ -3,7 +3,7 @@
 A small CRM for BIAI's enquiries (WhatsApp, Facebook, website, phone notes).
 AI reads a pasted message, fills in the details, and suggests a reply in the sender's language.
 
-**Live demo:** https://biai-crm-trino.streamlit.app/  |  **Video:** `https://www.loom.com/share/2226af2c4f1d4b58a9cb136908d7f53a?t=322`
+**Live demo:** [biai-crm-trino.streamlit.app](https://biai-crm-trino.streamlit.app/)  |  **Video:** [Watch the demo on Loom](https://www.loom.com/share/2226af2c4f1d4b58a9cb136908d7f53a)
 
 ![System design](docs/architecture.png)
 
@@ -58,6 +58,14 @@ AI reads a pasted message, fills in the details, and suggests a reply in the sen
 | second AI pass: fact-check each reply for invented claims | refuses any phone number that is not in the message |
 
 ## Run it
+```
+python -m venv .venv
+.venv\Scripts\activate                 # Mac/Linux: source .venv/bin/activate
+pip install -r requirements.txt
+copy .streamlit\secrets.toml.example .streamlit\secrets.toml    # then add your own keys
+python -m pytest -q tests
+streamlit run app.py
+```
 The 20 sample enquiries load from `data/analysis_cache.json` (saved AI results) so the demo never depends on a live API call.
 Regenerate it with `python run_eval.py --providers groq --save-cache`.
 
