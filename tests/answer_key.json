@@ -1,0 +1,23 @@
+{
+  "_note": "Hand-made answer key for the 20 sample messages. 'accept' lists other kinds that are defensible for contested cases.",
+  "1":  {"kind": "lead",    "want": "bootcamp",   "lang": "banglish"},
+  "2":  {"kind": "lead",    "want": "fellowship", "lang": "bangla"},
+  "3":  {"kind": "lead",    "want": "corporate",  "lang": "english"},
+  "4":  {"kind": "faq",     "want": "unknown",    "lang": "banglish"},
+  "5":  {"kind": "lead",    "want": "unknown",    "lang": "english", "accept": ["faq"]},
+  "6":  {"kind": "faq",     "want": "unknown",    "lang": "banglish"},
+  "7":  {"kind": "support", "want": "unknown",    "lang": "bangla"},
+  "8":  {"kind": "faq",     "want": "unknown",    "lang": "english", "accept": ["lead"]},
+  "9":  {"kind": "faq",     "want": "unknown",    "lang": "banglish"},
+  "10": {"kind": "lead",    "want": "corporate",  "lang": "english"},
+  "11": {"kind": "spam",    "want": "unknown",    "lang": "english"},
+  "12": {"kind": "lead",    "want": "bootcamp",   "lang": "banglish"},
+  "13": {"kind": "minor",   "want": "unknown",    "lang": "bangla", "accept": ["faq"]},
+  "14": {"kind": "lead",    "want": "fellowship", "lang": "english"},
+  "15": {"kind": "faq",     "want": "unknown",    "lang": "banglish", "accept": ["support"]},
+  "16": {"kind": "urgent",  "want": "unknown",    "lang": "english"},
+  "17": {"kind": "faq",     "want": "unknown",    "lang": "banglish"},
+  "18": {"kind": "lead",    "want": "corporate",  "lang": "bangla"},
+  "19": {"kind": "lead",    "want": "fellowship", "lang": "english"},
+  "20": {"kind": "job",     "want": "unknown",    "lang": "english"}
+}

@@ -1,0 +1,622 @@
+{
+ "1": {
+  "analysis": {
+   "kind": "lead",
+   "want": "bootcamp",
+   "lang": "banglish",
+   "name": "Rafi Ahmed",
+   "company": "",
+   "role": "",
+   "phone": "01711000001",
+   "headcount": null,
+   "summary": "Rafi wants the price and payment details for the 3-day bootcamp.",
+   "reply": "Rafi, assalamualaikum! Bootcamp er price ebong payment niye amader team dekhbe, tarpor apnake janabo. Dhonnobad!"
+  },
+  "meta": {
+   "provider": "groq",
+   "model": "openai/gpt-oss-120b",
+   "source": "live",
+   "seconds": 1.59
+  },
+  "score": {
+   "kind": true,
+   "want": true,
+   "lang": true,
+   "phone": true,
+   "name": true,
+   "reply_lang": true,
+   "reply_safe": true,
+   "reply_present": true
+  },
+  "claims": []
+ },
+ "2": {
+  "analysis": {
+   "kind": "lead",
+   "want": "fellowship",
+   "lang": "bangla",
+   "name": "Tahmina Akter",
+   "company": "",
+   "role": "",
+   "phone": null,
+   "headcount": null,
+   "summary": "Prospect wants to join the fellowship and asks about start date; team will review and respond.",
+   "reply": "তাহমিনা, আপনার আগ্রহের জন্য ধন্যবাদ। আমাদের টিম আপনার অনুরোধ পর্যালোচনা করে শীঘ্রই যোগাযোগ করবে।"
+  },
+  "meta": {
+   "provider": "groq",
+   "model": "openai/gpt-oss-120b",
+   "source": "live",
+   "seconds": 1.59
+  },
+  "score": {
+   "kind": true,
+   "want": true,
+   "lang": true,
+   "phone": true,
+   "name": true,
+   "reply_lang": true,
+   "reply_safe": true,
+   "reply_present": true
+  },
+  "claims": []
+ },
+ "3": {
+  "analysis": {
+   "kind": "lead",
+   "want": "corporate",
+   "lang": "english",
+   "name": "Mahmud Hasan",
+   "company": "Gazipur textile company",
+   "role": "Managing Director",
+   "phone": "01711000003",
+   "headcount": 40,
+   "summary": "Corporate AI training request for 40-person team, wants a call.",
+   "reply": "Hi Mahmud, thanks for reaching out! We'll review your request for AI training for your 40-person team and get back to you. Do you have any preferred dates for the call?"
+  },
+  "meta": {
+   "provider": "groq",
+   "model": "openai/gpt-oss-120b",
+   "source": "live",
+   "seconds": 1.68
+  },
+  "score": {
+   "kind": true,
+   "want": true,
+   "lang": true,
+   "phone": true,
+   "name": true,
+   "reply_lang": true,
+   "reply_safe": true,
+   "reply_present": true
+  },
+  "claims": []
+ },
+ "4": {
+  "analysis": {
+   "kind": "faq",
+   "want": "unknown",
+   "lang": "banglish",
+   "name": "Sabbir",
+   "company": "",
+   "role": "",
+   "phone": "01711000004",
+   "headcount": null,
+   "summary": "User asks if classes are live or recorded and whether recordings are available",
+   "reply": "Sabbir, apnar prosno ta note kore nilam. Amader team eita check kore apnake reply dibe."
+  },
+  "meta": {
+   "provider": "groq",
+   "model": "openai/gpt-oss-120b",
+   "source": "live",
+   "seconds": 1.27
+  },
+  "score": {
+   "kind": true,
+   "want": true,
+   "lang": true,
+   "phone": true,
+   "name": true,
+   "reply_lang": true,
+   "reply_safe": true,
+   "reply_present": true
+  },
+  "claims": []
+ },
+ "5": {
+  "analysis": {
+   "kind": "lead",
+   "want": "unknown",
+   "lang": "english",
+   "name": "Nasreen Sultana",
+   "company": "",
+   "role": "",
+   "phone": "01711000005",
+   "headcount": null,
+   "summary": "Nasreen asked about a student discount and will call again tomorrow after 5 PM.",
+   "reply": "Hi Nasreen, thanks for your interest in the student discount. Our team will review your request and get back to you."
+  },
+  "meta": {
+   "provider": "groq",
+   "model": "openai/gpt-oss-120b",
+   "source": "live",
+   "seconds": 1.58
+  },
+  "score": {
+   "kind": true,
+   "want": true,
+   "lang": true,
+   "phone": true,
+   "name": true,
+   "reply_lang": true,
+   "reply_safe": true,
+   "reply_present": true
+  },
+  "claims": []
+ },
+ "6": {
+  "analysis": {
+   "kind": "faq",
+   "want": "unknown",
+   "lang": "banglish",
+   "name": "Ishtiaq",
+   "company": "",
+   "role": "",
+   "phone": null,
+   "headcount": null,
+   "summary": "User asks if taking the course leads to a job",
+   "reply": "Ishtiaq, ei prosno amader team review korbe, tarpor apnake janabo. Apni kon programme niye interested?"
+  },
+  "meta": {
+   "provider": "groq",
+   "model": "openai/gpt-oss-120b",
+   "source": "live",
+   "seconds": 1.49
+  },
+  "score": {
+   "kind": true,
+   "want": true,
+   "lang": true,
+   "phone": true,
+   "name": true,
+   "reply_lang": true,
+   "reply_safe": true,
+   "reply_present": true
+  },
+  "claims": []
+ },
+ "7": {
+  "analysis": {
+   "kind": "support",
+   "want": "unknown",
+   "lang": "bangla",
+   "name": "Farzana Rahman",
+   "company": "",
+   "role": "",
+   "phone": "01711000007",
+   "headcount": null,
+   "summary": "User paid on 25th via bKash but hasn't received confirmation; needs support.",
+   "reply": "ফারজানা, দুঃখিত যে কনফার্মেশন পাননি। দয়া করে আপনার বিকাশ ট্রান্স্যাকশন আইডি শেয়ার করবেন? টিমটি যাচাই করে জানাবে।"
+  },
+  "meta": {
+   "provider": "groq",
+   "model": "openai/gpt-oss-120b",
+   "source": "live",
+   "seconds": 1.43
+  },
+  "score": {
+   "kind": true,
+   "want": true,
+   "lang": true,
+   "phone": true,
+   "name": true,
+   "reply_lang": true,
+   "reply_safe": true,
+   "reply_present": true
+  },
+  "claims": []
+ },
+ "8": {
+  "analysis": {
+   "kind": "faq",
+   "want": "unknown",
+   "lang": "english",
+   "name": "Anika Chowdhury",
+   "company": "",
+   "role": "",
+   "phone": "01711000008",
+   "headcount": null,
+   "summary": "User asks about refund policy for a purchase",
+   "reply": "Hi Anika, thanks for reaching out. Our team will review your question about refunds and get back to you."
+  },
+  "meta": {
+   "provider": "groq",
+   "model": "openai/gpt-oss-120b",
+   "source": "live",
+   "seconds": 1.13
+  },
+  "score": {
+   "kind": true,
+   "want": true,
+   "lang": true,
+   "phone": true,
+   "name": true,
+   "reply_lang": true,
+   "reply_safe": true,
+   "reply_present": true
+  },
+  "claims": []
+ },
+ "9": {
+  "analysis": {
+   "kind": "faq",
+   "want": "unknown",
+   "lang": "banglish",
+   "name": "Jahid",
+   "company": "",
+   "role": "",
+   "phone": null,
+   "headcount": null,
+   "summary": "User asks where the offline class will be held (Mirpur?) and needs location info.",
+   "reply": "Jahid, amader team apnar prosno review korbe ebong reply dibe. Apni kon programme niye jiggesh korchen?"
+  },
+  "meta": {
+   "provider": "groq",
+   "model": "openai/gpt-oss-120b",
+   "source": "live",
+   "seconds": 2.6
+  },
+  "score": {
+   "kind": true,
+   "want": true,
+   "lang": true,
+   "phone": true,
+   "name": true,
+   "reply_lang": true,
+   "reply_safe": true,
+   "reply_present": true
+  },
+  "claims": []
+ },
+ "10": {
+  "analysis": {
+   "kind": "lead",
+   "want": "corporate",
+   "lang": "english",
+   "name": "Kamrul Islam",
+   "company": "bank in Motijheel",
+   "role": "HR",
+   "phone": "01711000010",
+   "headcount": 120,
+   "summary": "Requesting a quote for corporate training for 120 employees; team will review and respond.",
+   "reply": "Hi Kamrul, thanks for reaching out! We'll review your request for training 120 employees and get back to you. Do you have any preferred dates for the training?"
+  },
+  "meta": {
+   "provider": "groq",
+   "model": "openai/gpt-oss-120b",
+   "source": "live",
+   "seconds": 2.17
+  },
+  "score": {
+   "kind": true,
+   "want": true,
+   "lang": true,
+   "phone": true,
+   "name": true,
+   "reply_lang": true,
+   "reply_safe": true,
+   "reply_present": true
+  },
+  "claims": []
+ },
+ "11": {
+  "analysis": {
+   "kind": "spam",
+   "want": "unknown",
+   "lang": "english",
+   "name": "",
+   "company": "",
+   "role": "",
+   "phone": null,
+   "headcount": null,
+   "summary": "Spam advertisement, no response needed.",
+   "reply": ""
+  },
+  "meta": {
+   "provider": "groq",
+   "model": "openai/gpt-oss-120b",
+   "source": "live",
+   "seconds": 0.86
+  },
+  "score": {
+   "kind": true,
+   "want": true,
+   "lang": true,
+   "phone": true,
+   "name": true,
+   "reply_lang": true,
+   "reply_safe": true,
+   "reply_present": true
+  },
+  "claims": []
+ },
+ "12": {
+  "analysis": {
+   "kind": "lead",
+   "want": "bootcamp",
+   "lang": "banglish",
+   "name": "Rafi Ahmed",
+   "company": "",
+   "role": "",
+   "phone": "01711000001",
+   "headcount": null,
+   "summary": "Rafi wants the bootcamp price; the team will review the request and reply.",
+   "reply": "Rafi, bootcamp er price er jonne dhonnobad. Amader team apnar request review kore taratari reply dibe."
+  },
+  "meta": {
+   "provider": "groq",
+   "model": "openai/gpt-oss-120b",
+   "source": "live",
+   "seconds": 1.22
+  },
+  "score": {
+   "kind": true,
+   "want": true,
+   "lang": true,
+   "phone": true,
+   "name": true,
+   "reply_lang": true,
+   "reply_safe": true,
+   "reply_present": true
+  },
+  "claims": []
+ },
+ "13": {
+  "analysis": {
+   "kind": "minor",
+   "want": "unknown",
+   "lang": "bangla",
+   "name": "Mim",
+   "company": "",
+   "role": "",
+   "phone": null,
+   "headcount": null,
+   "summary": "Class 9 student wants to join free masterclass.",
+   "reply": "মিম, ফ্রি মাস্টারক্লাসে যোগ দিতে চাইলে দয়া করে আপনার পিতামাতা বা অভিভাবকের সঙ্গে কথা বলুন। আমাদের টিম আপনার জন্য কী কী অপশন আছে তা যাচাই করে জানাবে।"
+  },
+  "meta": {
+   "provider": "groq",
+   "model": "openai/gpt-oss-120b",
+   "source": "live",
+   "seconds": 1.25
+  },
+  "score": {
+   "kind": true,
+   "want": true,
+   "lang": true,
+   "phone": true,
+   "name": true,
+   "reply_lang": true,
+   "reply_safe": true,
+   "reply_present": true
+  },
+  "claims": []
+ },
+ "14": {
+  "analysis": {
+   "kind": "lead",
+   "want": "fellowship",
+   "lang": "english",
+   "name": "Shirin Sultana",
+   "company": "",
+   "role": "",
+   "phone": "01711000013",
+   "headcount": null,
+   "summary": "Shirin asks if the fellowship is suitable for a non-technical marketing manager; the team will review and respond.",
+   "reply": "Hi Shirin, thanks for your message! We'll review if the fellowship fits your profile and let you know."
+  },
+  "meta": {
+   "provider": "groq",
+   "model": "openai/gpt-oss-120b",
+   "source": "live",
+   "seconds": 1.78
+  },
+  "score": {
+   "kind": true,
+   "want": true,
+   "lang": true,
+   "phone": true,
+   "name": true,
+   "reply_lang": true,
+   "reply_safe": true,
+   "reply_present": true
+  },
+  "claims": []
+ },
+ "15": {
+  "analysis": {
+   "kind": "faq",
+   "want": "unknown",
+   "lang": "banglish",
+   "name": "Tanvir",
+   "company": "",
+   "role": "",
+   "phone": "01711000014",
+   "headcount": null,
+   "summary": "User asks about add-on and lifetime access meaning.",
+   "reply": "Tanvir, add-on ebong lifetime access niye apnar prosno peyeche. Amader team eita check kore apnake reply dibe."
+  },
+  "meta": {
+   "provider": "groq",
+   "model": "openai/gpt-oss-120b",
+   "source": "live",
+   "seconds": 1.47
+  },
+  "score": {
+   "kind": true,
+   "want": true,
+   "lang": true,
+   "phone": true,
+   "name": true,
+   "reply_lang": true,
+   "reply_safe": true,
+   "reply_present": true
+  },
+  "claims": []
+ },
+ "16": {
+  "analysis": {
+   "kind": "urgent",
+   "want": "unknown",
+   "lang": "english",
+   "name": "Habibur Rahman",
+   "company": "",
+   "role": "",
+   "phone": "01711000015",
+   "headcount": null,
+   "summary": "Customer wants to cancel enrollment and get a refund, threatening to post on Facebook.",
+   "reply": "Hi Habibur, we’re really sorry for the trouble. A manager will call you today to resolve this."
+  },
+  "meta": {
+   "provider": "groq",
+   "model": "openai/gpt-oss-120b",
+   "source": "live",
+   "seconds": 1.02
+  },
+  "score": {
+   "kind": true,
+   "want": true,
+   "lang": true,
+   "phone": true,
+   "name": true,
+   "reply_lang": true,
+   "reply_safe": true,
+   "reply_present": true
+  },
+  "claims": []
+ },
+ "17": {
+  "analysis": {
+   "kind": "faq",
+   "want": "unknown",
+   "lang": "banglish",
+   "name": "Nowshin",
+   "company": "",
+   "role": "",
+   "phone": null,
+   "headcount": null,
+   "summary": "User asks if the course certificate is government approved.",
+   "reply": "Nowshin, apnader query ta note kore nilam. Team review kore apnake reply dibe."
+  },
+  "meta": {
+   "provider": "groq",
+   "model": "openai/gpt-oss-120b",
+   "source": "live",
+   "seconds": 1.58
+  },
+  "score": {
+   "kind": true,
+   "want": true,
+   "lang": true,
+   "phone": true,
+   "name": true,
+   "reply_lang": true,
+   "reply_safe": true,
+   "reply_present": true
+  },
+  "claims": []
+ },
+ "18": {
+  "analysis": {
+   "kind": "lead",
+   "want": "corporate",
+   "lang": "bangla",
+   "name": "Rezaul Karim",
+   "company": "small garment factory",
+   "role": "owner",
+   "phone": "01711000017",
+   "headcount": 15,
+   "summary": "They want a group discount for 15 employees for corporate training.",
+   "reply": "রেজাউল, আপনার আগ্রহের জন্য ধন্যবাদ। আমাদের দল আপনার অনুরোধ পর্যালোচনা করবে এবং আপনাকে জানাবে। আপনার প্রশিক্ষণের পছন্দের তারিখগুলো কী?"
+  },
+  "meta": {
+   "provider": "groq",
+   "model": "openai/gpt-oss-120b",
+   "source": "live",
+   "seconds": 2.5
+  },
+  "score": {
+   "kind": true,
+   "want": true,
+   "lang": true,
+   "phone": true,
+   "name": true,
+   "reply_lang": true,
+   "reply_safe": true,
+   "reply_present": true
+  },
+  "claims": []
+ },
+ "19": {
+  "analysis": {
+   "kind": "lead",
+   "want": "fellowship",
+   "lang": "english",
+   "name": "Samira",
+   "company": "",
+   "role": "",
+   "phone": "01711000018",
+   "headcount": null,
+   "summary": "Samira wants to pay for the fellowship in two installments.",
+   "reply": "Hi Samira, thanks for your question! Our team will review your request about installment payment for the fellowship and get back to you."
+  },
+  "meta": {
+   "provider": "groq",
+   "model": "openai/gpt-oss-120b",
+   "source": "live",
+   "seconds": 1.06
+  },
+  "score": {
+   "kind": true,
+   "want": true,
+   "lang": true,
+   "phone": true,
+   "name": true,
+   "reply_lang": true,
+   "reply_safe": true,
+   "reply_present": true
+  },
+  "claims": []
+ },
+ "20": {
+  "analysis": {
+   "kind": "job",
+   "want": "unknown",
+   "lang": "english",
+   "name": "Arif Hossain",
+   "company": "",
+   "role": "",
+   "phone": "01711000019",
+   "headcount": null,
+   "summary": "Job inquiry for AI intern position.",
+   "reply": "Hi Arif, thanks for reaching out! We'll forward your interest to the relevant team and get back to you."
+  },
+  "meta": {
+   "provider": "groq",
+   "model": "openai/gpt-oss-120b",
+   "source": "live",
+   "seconds": 1.27
+  },
+  "score": {
+   "kind": true,
+   "want": true,
+   "lang": true,
+   "phone": true,
+   "name": true,
+   "reply_lang": true,
+   "reply_safe": true,
+   "reply_present": true
+  },
+  "claims": []
+ }
+}

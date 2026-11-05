@@ -1,0 +1,83 @@
+{
+ "_note": "Hold-out set: written AFTER the prompt was tuned, never used to tune it.",
+ "101": {
+  "kind": "lead",
+  "want": "fellowship",
+  "lang": "bangla"
+ },
+ "102": {
+  "kind": "lead",
+  "want": "bootcamp",
+  "lang": "banglish"
+ },
+ "103": {
+  "kind": "lead",
+  "want": "corporate",
+  "lang": "english"
+ },
+ "104": {
+  "kind": "faq",
+  "want": "bootcamp",
+  "lang": "banglish"
+ },
+ "105": {
+  "kind": "spam",
+  "want": "unknown",
+  "lang": "english"
+ },
+ "106": {
+  "kind": "support",
+  "want": "fellowship",
+  "lang": "english"
+ },
+ "107": {
+  "kind": "urgent",
+  "want": "unknown",
+  "lang": "bangla"
+ },
+ "108": {
+  "kind": "lead",
+  "want": "corporate",
+  "lang": "english"
+ },
+ "109": {
+  "kind": "faq",
+  "want": "bootcamp",
+  "lang": "banglish",
+  "accept": [
+   "lead",
+   "minor"
+  ]
+ },
+ "110": {
+  "kind": "job",
+  "want": "unknown",
+  "lang": "english"
+ },
+ "111": {
+  "kind": "lead",
+  "want": "fellowship",
+  "lang": "english",
+  "accept": [
+   "faq"
+  ]
+ },
+ "112": {
+  "kind": "lead",
+  "want": "bootcamp",
+  "lang": "english"
+ },
+ "113": {
+  "kind": "faq",
+  "want": "bootcamp",
+  "lang": "banglish",
+  "accept": [
+   "lead"
+  ]
+ },
+ "114": {
+  "kind": "lead",
+  "want": "fellowship",
+  "lang": "english"
+ }
+}
