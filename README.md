@@ -3,7 +3,9 @@
 A small CRM for BIAI's enquiries (WhatsApp, Facebook, website, phone notes).
 AI reads a pasted message, fills in the details, and suggests a reply in the sender's language.
 
-**Live demo:** `<paste the Streamlit link>`  |  **Video:** `<paste the Loom link>`
+**Live demo:** https://biai-crm-trino.streamlit.app/  |  **Video:** `<paste the Loom link>`
+
+![System design](docs/architecture.png)
 
 ## Screens
 1. **Pipeline** – New, Contacted, Interested, Paid, Lost. Badges for high-value, repeat askers and "waiting 48h+". One-click "Contacted".

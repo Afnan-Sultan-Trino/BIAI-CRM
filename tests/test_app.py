@@ -242,3 +242,17 @@ def test_quick_contacted_button_on_the_card(app):
 def test_theme_is_not_alarm_red():
     cfg = (ROOT / ".streamlit" / "config.toml").read_text(encoding="utf-8")
     assert "primaryColor" in cfg and "#2563eb" in cfg
+
+
+def test_no_stray_none_printed_on_the_page(app):
+    """Regression (seen on the deployed app): Streamlit 'magic' prints any bare expression, so a
+    ternary that calls functions printed 'None' 20 times on first load."""
+    assert [e for e in app.main if getattr(e, "value", None) in ("None", "`None`")] == []
+
+
+def test_app_has_no_statement_level_expressions_that_magic_would_print():
+    import ast
+    src = (ROOT / "app.py").read_text(encoding="utf-8")
+    bad = [n.lineno for n in ast.walk(ast.parse(src))
+           if isinstance(n, ast.Expr) and not isinstance(n.value, (ast.Call, ast.Constant))]
+    assert bad == [], f"bare expressions on lines {bad}"

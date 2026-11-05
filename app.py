@@ -41,7 +41,10 @@ def load_sample():
         eid, is_new = db.ingest_row(conn, r)
         a, meta = ai.analyse(r, order=(), cache=cache)         # cache only: the 20 samples never call the live API
         offline += meta["source"] == "offline"
-        db.apply_analysis(conn, eid, a) if is_new else db.update_latest(conn, eid, a)
+        if is_new:
+            db.apply_analysis(conn, eid, a)
+        else:
+            db.update_latest(conn, eid, a)
     return conn, offline
 
 
@@ -193,7 +196,10 @@ def save_draft():
         return
     row = {**d["row"], "id": db.next_src_id(conn)}
     eid, is_new = db.ingest_row(conn, row)
-    db.apply_analysis(conn, eid, d["a"]) if is_new else db.update_latest(conn, eid, d["a"])
+    if is_new:
+        db.apply_analysis(conn, eid, d["a"])
+    else:
+        db.update_latest(conn, eid, d["a"])
     st.session_state.update(selected=eid, goto="Pipeline", add_name="", add_phone="", add_msg="")
     st.session_state.pop("draft", None)
 
@@ -259,7 +265,10 @@ def screen_summary():
         st.markdown("##### Waiting 48h or more")
         waiting = [{"name": c["name"], "waiting_hours": round(rules.hours_waiting(c, NOW)), "status": c["status"]}
                    for c in cs if rules.is_overdue(c, NOW)]
-        st.dataframe(pd.DataFrame(waiting), hide_index=True) if waiting else st.caption("Nobody is overdue.")
+        if waiting:
+            st.dataframe(pd.DataFrame(waiting), hide_index=True)
+        else:
+            st.caption("Nobody is overdue.")
     st.divider()
     facts = summary.facts_from(cs, NOW)
     if st.button("📝 Write the weekly summary with AI", type="primary"):
